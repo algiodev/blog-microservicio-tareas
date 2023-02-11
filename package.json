@@ -1,0 +1,25 @@
+{
+    "name": "mailer",
+    "version": "0.0.1",
+    "description": "Microservicio para el envio de correos electronicos mediante suscripción a una cola redis.",
+    "main": "index.js",
+    "homepage": "https://algio.dev",
+    "domains": [
+        "algio.dev"
+    ],
+    "scripts": {
+        "dev": "nodemon app/index.js"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Alfredo Giménez Ostalé",
+        "email": "alfredo@algio.dev"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "bullmq": "^3.5.3",
+        "dotenv": "^16.0.3",
+        "handlebars": "^4.7.7",
+        "nodemailer": "^6.8.0"
+    }
+}
