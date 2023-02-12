@@ -21,7 +21,7 @@ El micro servicio no cuenta con interfaz HTTP, solo recibe tareas desde Redis, l
 
 ## Tareas
 
-Solo se procesan tareas enviadas a la cola `email`. Se espera recibir un objeto de tarea según se muestra el ejemplo:
+Solo se procesan tareas enviadas a la cola `email`. Para enviar una tarea nueva, ejecuta el fichero `app/addTask.js`, pero asegúrate de tener el micro servicio corriendo antes, con la conexión de Redis establecida. El micro servicio espera recibir un objeto de tarea según se muestra el ejemplo:
 
 
 ```json
